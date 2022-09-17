@@ -14,8 +14,10 @@ const promiseOutput = async (emosi) => {
     if(element.hasil == emosi) count++;
   });
 
+  console.log("emosi: ", emosi, " => ", count)
+
   return count;
-} 
+};
 
 module.exports = {
   promiseOutput,
